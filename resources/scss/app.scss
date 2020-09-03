@@ -4,6 +4,7 @@ body {
     font-family:'Lato',sans-serif;
     -webkit-font-smoothing:antialiased;
      color: $dark;
+     
 }
  nav li:last-child a{
     
@@ -13,10 +14,37 @@ body {
      background: $primary;
  }
  nav li a{
-    transition: all .3s ease-in-out; 
+    transition: $smooth; 
     &:hover{
         color:$primary;
        
     }
      
+ }
+ section.hero{
+     background: $secondary;
+ }
+ .size{
+    background: $secondary;
+ }
+ .add-to-cart{
+     border: 2px solid $primary;
+     color: $primary;
+     transition: $smooth;
+     &:hover{
+         background:$primary ;
+         border-color: $pure;
+         color: $pure;
+
+     }
+ }
+ .btn-primary{
+     background: $primary;
+     transition: $smooth;
+     &:hover{
+         background: $primary-hover;
+     }
+ }
+ section.cart{
+     background: $secondary;
  }
