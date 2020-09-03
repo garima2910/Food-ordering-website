@@ -1,0 +1,4 @@
+1. create directory structure 
+2 . create a npm project and install all the dependencies 
+3 . create express sever create server.js file 
+4 . 
